@@ -107,6 +107,8 @@ Example: [Coroutines.kt](src/main/kotlin/za/co/ee/coroutine/Coroutines.kt)
 
 ## Learning Path
 
+Additional Guide is available here: [Kotlin Leaning Guide](https://docs.google.com/document/d/1ehg-qtKlG1DXG8IcruxkSEcal1QfUXcXu8bidIQh5t4/edit?tab=t.0)
+
 For beginners to Kotlin, we recommend exploring the examples in this order:
 
 1. Constructors and Properties
