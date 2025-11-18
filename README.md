@@ -133,3 +133,15 @@ This project includes a submodule that demonstrates how to build a REST API usin
 - **Testing**: Unit tests, integration tests, and WireMock for external service stubbing
 
 The submodule provides a REST API for managing Kotlin learning resources. See the [quarkus-rest README](quarkus-rest/README.md) for more details.
+
+## Http4k Submodule
+
+This project is a production-ready RESTful API built with http4k demonstrating clean architecture, JWT authentication, and OpenAPI documentation.
+
+- **JWT Authentication** - Secure endpoints with bearer token authentication
+- **OpenAPI 3.0** - Auto-generated API documentation from contract definitions
+- **Swagger UI** - Interactive API documentation interface
+- **Clean Architecture** - Domain-driven design with clear separation of concerns
+- **Functional Programming** - Uses Arrow-kt for functional error handling
+- **Comprehensive Testing** - Unit and integration tests with 121 test cases
+- **Code Quality** - ktlint integration for consistent code style

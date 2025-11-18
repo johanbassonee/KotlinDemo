@@ -16,3 +16,4 @@ plugins {
 rootProject.name = "KotlinDemo"
 
 include("quarkus-rest")
+include("http4k-example")
