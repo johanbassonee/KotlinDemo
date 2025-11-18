@@ -9,11 +9,9 @@ import io.kotest.matchers.string.shouldStartWith
 import org.hamcrest.Matchers.containsString
 import org.hamcrest.Matchers.equalTo
 import org.hamcrest.Matchers.hasItem
-import org.hamcrest.Matchers.not
 import org.hamcrest.Matchers.notNullValue
 import java.time.Instant
-import java.util.Date
-import java.util.UUID
+import java.util.*
 
 class GetUsersIntegrationTest : BaseIntegrationTest() {
     private fun getValidToken(): String {

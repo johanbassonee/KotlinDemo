@@ -31,8 +31,6 @@ abstract class BaseIntegrationTest : FunSpec() {
         }
     }
 
-    protected fun baseUrl() = "http://localhost:${RestAssured.port}"
-
     protected fun given() =
         RestAssured
             .given()

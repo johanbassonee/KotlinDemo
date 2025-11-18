@@ -16,7 +16,6 @@ import za.co.ee.learning.infrastructure.routes.SwaggerRoutes
 import za.co.ee.learning.infrastructure.security.BCryptPasswordProvider
 import za.co.ee.learning.infrastructure.security.DefaultJWTProvider
 import za.co.ee.learning.infrastructure.security.JWTFilter
-import za.co.ee.learning.infrastructure.server.ContentTypeFilter
 
 class Server(
     config: ServerConfig = ServerConfig(),

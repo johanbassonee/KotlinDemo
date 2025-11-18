@@ -31,7 +31,7 @@ class ContentTypeFilter(
         return if (contentType != null && acceptableContentTypes.none { contentType.startsWith(it) }) {
             Response
                 .Companion(
-                    Status.Companion.BAD_REQUEST,
+                    Status.BAD_REQUEST,
                 ).body("Content-Type must be one of: ${acceptableContentTypes.joinToString(", ")}")
         } else {
             next(request)

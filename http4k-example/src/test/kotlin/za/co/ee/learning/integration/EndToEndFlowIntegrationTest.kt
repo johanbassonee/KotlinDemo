@@ -5,7 +5,6 @@ import io.kotest.matchers.shouldNotBe
 import io.kotest.matchers.string.shouldNotBeBlank
 import org.hamcrest.Matchers.containsString
 import org.hamcrest.Matchers.equalTo
-import org.hamcrest.Matchers.not
 import org.hamcrest.Matchers.notNullValue
 
 class EndToEndFlowIntegrationTest : BaseIntegrationTest() {
@@ -65,7 +64,7 @@ class EndToEndFlowIntegrationTest : BaseIntegrationTest() {
                 val token = authResponse.jsonPath().getString("token")
 
                 // Make multiple requests with the same token
-                repeat(5) { iteration ->
+                repeat(5) { _ ->
                     val response =
                         given()
                             .header("Authorization", "Bearer $token")
