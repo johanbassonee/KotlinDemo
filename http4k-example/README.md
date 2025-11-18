@@ -29,8 +29,7 @@ It is hard to find a good example of a production-ready REST API built with Kotl
 
 1. The authenticate endpoint should not be taken as best practise. The intent here is to show a flow of business logic across multiple components.
 2. This project uses unsafe CORS settings for demonstration purposes only. Do not use this in production.
-3. There is no configuration loading from environment variables or external configuration files. This is intentional to keep the example simple. Look at [Hoplite](https://github.com/sksamuel/hoplite) for such a library.
-4. This project has hard coded secrets in it. Do not use hard coded secrets in production.
+3. This project has hard coded secrets in it. Do not use hard coded secrets in production.
 
 ## Architecture
 

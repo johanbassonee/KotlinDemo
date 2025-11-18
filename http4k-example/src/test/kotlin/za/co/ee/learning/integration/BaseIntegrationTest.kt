@@ -17,8 +17,6 @@ abstract class BaseIntegrationTest : FunSpec() {
                     jwtSecret = "test-secret",
                     jwtIssuer = "http4k-test",
                     jwtExpirationSeconds = 3600,
-                    enableDebugFilters = false,
-                    enableMetrics = false,
                 )
 
             server = Server(testConfig).start()

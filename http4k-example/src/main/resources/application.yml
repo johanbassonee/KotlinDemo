@@ -1,0 +1,4 @@
+port: 8080
+jwtSecret: "mysupersecretsecret"
+jwtIssuer: "http4k"
+jwtExpirationSeconds: 120
